@@ -1,0 +1,183 @@
+.main-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70vw;
+
+}
+
+.navbar1 ul {
+  list-style: none;
+  background-color: #F5F5F5;
+  padding: 5px;
+}
+
+.navbar2 ul {
+  list-style: none;
+  height: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar2 ul li a {
+  padding: 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: grey;
+  /* border-bottom: 5px solid red; */
+}
+
+.navbar2 ul li a:hover {
+  color: white;
+  /* background-color: gray; */
+}
+
+.list1 {
+  background-color: gray;
+  border-bottom: 5px solid gray;
+  border-bottom-left-radius: 5px;
+
+}
+
+.list2 a {
+  border-bottom: 5px solid red;
+}
+
+.list2 a:hover {
+  background-color: red;
+}
+
+.list3 a {
+  border-bottom: 5px solid orange;
+}
+
+.list3 a:hover {
+  background-color: orange;
+}
+
+.list4 a {
+  border-bottom: 5px solid yellow;
+}
+
+.list4 a:hover {
+  background-color: yellow;
+}
+
+.list5 a {
+  border-bottom: 5px solid green;
+}
+
+.list5 a:hover {
+  background-color: green;
+}
+
+.list6 a {
+  border-bottom: 5px solid #30A7D7;
+}
+
+.list6 a:hover {
+  background-color: #30A7D7;
+}
+
+.list7 a {
+  border-bottom: 5px solid darkblue;
+  border-bottom-right-radius: 5px;
+}
+
+.list7 a:hover {
+  background-color: darkblue;
+}
+
+/* Center the social icons */
+/* .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+
+/* Style the social icons */
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  border-radius: 50%;
+  font-size: 24px;
+  color: #ffffff;
+  background-color: #333333;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: #1877f2;
+  /* Facebook blue */
+}
+
+.social-icons .twitter:hover {
+  background-color: #1da1f2;
+  /* Twitter blue */
+}
+
+.social-icons .instagram:hover {
+  background-color: #c32aa3;
+  /* Instagram pink */
+}
+
+.social-icons .youtube:hover {
+  background-color: #ff0000;
+  /* YouTube red */
+}
+
+.social-icons .pinterest:hover {
+  background-color: #bd081c;
+  /* Pinterest red */
+}
+
+@media (max-width: 576px) {
+  .main-container {
+    width: 90vw;
+    justify-content: center;
+  }
+
+  .navbar1 ul,
+  .navbar2 ul {
+    padding-left: 0;
+
+  }
+
+  .main-left-bottom2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .main-right {
+    justify-content: center;
+  }
+
+  /* Adjust font sizes, paddings, margins, etc. for smaller screens */
+}
+
+@media (max-width: 750px) {
+
+  .main-left,
+  .main-right {
+    width: 100%;
+  }
+
+
+}
+
+@media (min-width: 750px) {
+
+  .main-left,
+  .main-right {
+    width: 50%;
+
+  }
+
+}
